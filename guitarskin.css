@@ -154,8 +154,8 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 154;
-	left: 43;
+	top: 154px;
+	left: 43px;
 }
 
 .custom .start.pressed {
@@ -164,8 +164,8 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 154;
-	left: 43;
+	top: 154px;
+	left: 43px;
 }
 
 .custom .back {
@@ -174,8 +174,8 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 135;
-	left: 60;
+	top: 135px;
+	left: 60px;
 }
 
 .custom .back.pressed {
@@ -184,6 +184,6 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 135;
-	left: 60;
+	top: 135px;
+	left: 60px;
 }
