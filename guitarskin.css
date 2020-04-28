@@ -1,7 +1,7 @@
 /*Begin Guitar Controller Styling*/
 /*This class defines the base attributes of the skin*/
 
-.controller .custom {
+.controller.custom {
 	/* Base background image of guitar */
 	background: url(https://exemplaryme.github.io/Guitar.png);
 	height: 250px;
@@ -16,6 +16,6 @@
 }
 
 /* This hides the controller's button when disconnected so only the background image remains */ 
-.custom .disconnected div {
+.custom.disconnected div {
     display: none;
 }
