@@ -19,3 +19,22 @@
 .custom.disconnected div {
     display: none;
 }
+
+/* The Guitar has 5 Buttons, Orange will be L-Bumper */
+.custom .bumpers{
+    position: absolute;
+    height: 27px;
+    width: 18px;
+    top: 30px;
+    left: 284px;
+}
+
+.custom .bumper.left{
+    background: url(https://exemplaryme.github.io/Fret5.png);
+    height: 27px;
+    width: 341px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -251px;
+}
