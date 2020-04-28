@@ -33,8 +33,7 @@
     background: url(https://exemplaryme.github.io/Fret5.png);
     height: 27px;
     width: 341px;
-    display: block;
     position: absolute;
-    top: 0px;
-    left: -251px;
+    top: 100px;
+    left: 100px;
 }
