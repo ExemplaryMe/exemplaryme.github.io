@@ -22,6 +22,7 @@
 
 /* The Guitar has 5 Buttons */
 
+
 .custom .a{
     background: url(https://exemplaryme.github.io/Fret1.png);
     height: 27px;
@@ -30,6 +31,76 @@
     position: absolute;
     top: 112px;
     left: 600px;
+}
+
+.custom .a.pressed{
+    background: url(https://exemplaryme.github.io/Fret1h.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 600px;
+}
+
+.custom .b{
+    background: url(https://exemplaryme.github.io/Fret2.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 575px;
+}
+
+.custom .b.pressed{
+    background: url(https://exemplaryme.github.io/Fret2h.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 575px;
+}
+
+.custom .x{
+    background: url(https://exemplaryme.github.io/Fret3.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 550px;
+}
+
+.custom .x.pressed{
+    background: url(https://exemplaryme.github.io/Fret3h.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 550px;
+}
+
+.custom .y{
+    background: url(https://exemplaryme.github.io/Fret4.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 525px;
+}
+
+.custom .y{
+    background: url(https://exemplaryme.github.io/Fret4h.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 525px;
 }
 
 /* Orange Fret as Left Bumper */
@@ -43,6 +114,12 @@
     left: 500px;
 }
 
-.custom .pressed {
-	opacity = 1;
+.custom .bumper.left{
+    background: url(https://exemplaryme.github.io/Fret5h.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 500px;
 }
