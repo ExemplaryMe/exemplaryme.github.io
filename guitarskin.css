@@ -114,8 +114,8 @@
 
 .custom .bumper.left.pressed{
     background: url(https://exemplaryme.github.io/Fret5h.png);
-    height: 16px;
-    width: 65px;
+    height: 27px;
+    width: 18px;
     display: block;
     position: absolute;
     top: 112px;
@@ -126,6 +126,8 @@
 
 .custom .dpad.face.up {
 	background: url(https://exemplaryme.github.io/StrumUp.png);
+	height: 16px;
+	width:  65px;
 	display: block;
     position: absolute;
     top: 120px;
@@ -135,6 +137,8 @@
 
 .custom .dpad.face.up.pressed {
 	background: url(https://exemplaryme.github.io/StrumUph.png);
+	height: 16px;
+	width:  65px;
 	display: block;
     position: absolute;
     top: 120px;
