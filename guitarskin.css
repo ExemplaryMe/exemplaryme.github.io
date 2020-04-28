@@ -93,7 +93,7 @@
     left: 525px;
 }
 
-.custom .y{
+.custom .y.pressed{
     background: url(https://exemplaryme.github.io/Fret4h.png);
     height: 27px;
     width: 18px;
