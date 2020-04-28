@@ -124,7 +124,7 @@
 
 /* Strum Setup - the start is handled up by up and down */
 
-.custom .dpad.face.up {
+.custom .face.up {
 	background: url(https://exemplaryme.github.io/StrumUp.png);
 	height: 16px;
 	width:  65px;
@@ -135,7 +135,7 @@
 
 }
 
-.custom .dpad.face.up.pressed {
+.custom .face.up.pressed {
 	background: url(https://exemplaryme.github.io/StrumUph.png);
 	height: 16px;
 	width:  65px;
