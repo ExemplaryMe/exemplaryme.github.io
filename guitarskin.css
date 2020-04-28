@@ -20,9 +20,7 @@
     display: none;
 }
 
-/* The Guitar has 5 Buttons */
-
-
+/* The Guitar has 5 Buttons A B X Y and L for the frets 1-5, Green, Red, Yelllow, Blue, Orange */
 .custom .a{
     background: url(https://exemplaryme.github.io/Fret1.png);
     height: 27px;
@@ -116,10 +114,30 @@
 
 .custom .bumper.left.pressed{
     background: url(https://exemplaryme.github.io/Fret5h.png);
-    height: 27px;
-    width: 18px;
+    height: 16px;
+    width: 65px;
     display: block;
     position: absolute;
     top: 112px;
     left: 500px;
+}
+
+/* Strum Setup - the start is handled up by up and down */
+
+.custom .dpad.face.up {
+	background: url(https://exemplaryme.github.io/StrumUp.png);
+	display: block;
+    position: absolute;
+    top: 120px;
+    left: 139px;
+
+}
+
+.custom .dpad.face.up.pressed {
+	background: url(https://exemplaryme.github.io/StrumUph.png);
+	display: block;
+    position: absolute;
+    top: 120px;
+    left: 139px;
+
 }
