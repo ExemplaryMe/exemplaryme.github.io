@@ -212,9 +212,9 @@
 	left: 58px;
 }
 
-/* The Whammy is Right-Stick */
+/* The Whammy we'll set to R-Bumper */
 
-.custom .stick.right {
+.custom .bumper.right {
 	background: url(https://exemplaryme.github.io/Whammy.png);
 	height: 8px;
 	width: 92px;
@@ -224,7 +224,7 @@
 	left: 78px;
 }
 
-.custom .stick.pressed.right {
+.custom .bumper.right.pressed {
 	background: url(https://exemplaryme.github.io/Whammyh.png);
 	height: 8px;
 	width: 92px;
