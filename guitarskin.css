@@ -220,10 +220,8 @@
 	width: 92px;
 	display: block;
 	position: absolute;
-	top: 187px;
+	top: 195px;
 	left: 78px;
-	top: calc(100% - 105px);
-    left: calc(100% - 105px);
 }
 
 .custom .stick.pressed.right {
@@ -232,8 +230,6 @@
 	width: 92px;
 	display: block;
 	position: absolute;
-	top: 187px;
+	top: 195px;
 	left: 78px;
-	top: calc(100% - 105px);
-    left: calc(100% - 105px);
 }
