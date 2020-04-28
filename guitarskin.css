@@ -148,6 +148,12 @@
 
 /* Start and Select Buttons */
 
+.custom .arrows{
+    position: absolute;
+    width: 250px;
+    height: 741px;
+}
+
 .custom .start {
 	background: url(https://exemplaryme.github.io/Start.png);
 	height: 23px;
