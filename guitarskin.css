@@ -222,9 +222,11 @@
 	position: absolute;
 	top: 187px;
 	left: 78px;
+	top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 
-.custom .stick.right.pressed {
+.custom .stick.pressed.right {
 	background: url(https://exemplaryme.github.io/Whammyh.png);
 	height: 8px;
 	width: 92px;
@@ -232,4 +234,6 @@
 	position: absolute;
 	top: 187px;
 	left: 78px;
+	top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
