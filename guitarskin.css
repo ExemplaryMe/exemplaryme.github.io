@@ -145,3 +145,25 @@
     left: 139px;
 
 }
+
+/* Start and Select Buttons */
+
+.custom .start {
+	background: url(https://exemplaryme.github.io/Start.png);
+	height: 23px;
+	width: 22px;
+	display: block;
+	position: absolute;
+	top: 135;
+	left: 60;
+}
+
+.custom .start.pressed {
+	background: url(https://exemplaryme.github.io/Starth.png);
+	height: 23px;
+	width: 22px;
+	display: block;
+	position: absolute;
+	top: 135;
+	left: 60;
+}
