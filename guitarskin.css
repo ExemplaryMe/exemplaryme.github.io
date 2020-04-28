@@ -146,24 +146,25 @@
 
 }
 
-.custom .face.up {
+
+.custom .face.down {
 	background: url(https://exemplaryme.github.io/StrumDown.png);
 	height: 16px;
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 139px;
 
 }
 
-.custom .face.up.pressed {
+.custom .face.down.pressed {
 	background: url(https://exemplaryme.github.io/StrumDownh.png);
 	height: 16px;
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 139px;
 
 }
@@ -197,7 +198,7 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 132px;
+	top: 131px;
 	left: 58px;
 }
 
@@ -207,6 +208,6 @@
 	width: 22px;
 	display: block;
 	position: absolute;
-	top: 132px;
+	top: 131px;
 	left: 58px;
 }
