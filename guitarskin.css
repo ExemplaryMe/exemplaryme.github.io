@@ -194,8 +194,8 @@
 
 .custom .back {
 	background: url(https://exemplaryme.github.io/Select.png);
-	height: 23px;
-	width: 22px;
+	height: 20px;
+	width: 19px;
 	display: block;
 	position: absolute;
 	top: 131px;
@@ -204,8 +204,8 @@
 
 .custom .back.pressed {
 	background: url(https://exemplaryme.github.io/Selecth.png);
-	height: 23px;
-	width: 22px;
+	height: 20px;
+	width: 19px;
 	display: block;
 	position: absolute;
 	top: 131px;
