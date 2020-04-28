@@ -24,7 +24,10 @@
 
 .custom .bumper.left{
     background: url(https://exemplaryme.github.io/Fret5.png);
+    height: 27px;
+    width: 341px;
+    display: block;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 124px;
+    left: 508px;
 }
