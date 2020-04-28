@@ -20,14 +20,25 @@
     display: none;
 }
 
-/* The Guitar has 5 Buttons, Orange will be L-Bumper */
+/* The Guitar has 5 Buttons */
 
+.custom .a{
+    background: url(https://exemplaryme.github.io/Fret1.png);
+    height: 27px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    top: 112px;
+    left: 600px;
+}
+
+/* Orange Fret as Left Bumper */
 .custom .bumper.left{
     background: url(https://exemplaryme.github.io/Fret5.png);
     height: 27px;
-    width: 341px;
+    width: 18px;
     display: block;
     position: absolute;
-    top: 124px;
-    left: 508px;
+    top: 112px;
+    left: 500px;
 }
