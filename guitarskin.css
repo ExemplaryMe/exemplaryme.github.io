@@ -104,7 +104,7 @@
 }
 
 /* Orange Fret as Left Bumper */
-.custom .bumper.left{
+.custom .bumper.left.pressed{
     background: url(https://exemplaryme.github.io/Fret5.png);
     height: 27px;
     width: 18px;
@@ -114,7 +114,7 @@
     left: 500px;
 }
 
-.custom .bumper.left{
+.custom .bumper.left.pressed{
     background: url(https://exemplaryme.github.io/Fret5h.png);
     height: 27px;
     width: 18px;
