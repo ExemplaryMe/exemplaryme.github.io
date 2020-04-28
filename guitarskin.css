@@ -3,15 +3,14 @@
 
 .controller .custom {
 	/* Base background image of guitar */
-	background: url('https://i.imgur.com/HzcJPw1.png');
+	background: url(.../Guitar.png);
 	height: 250px;
 	width: 741px;
 }
 
 .custom .disconnected {
 	/* Image for disconnected Guitar */
-	background:
-	url ('https://i.imgur.com/aVaOVRu.png');
+	background: url(.../Guitar_Disconnected.png);
 	height: 250px;
 	width: 741px;
 }
