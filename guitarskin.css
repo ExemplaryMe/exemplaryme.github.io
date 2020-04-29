@@ -223,13 +223,3 @@
 	top: 185px;
 	left: 78px;
 }
-
-.custom .stick.pressed.left, .custom .stick.pressed.right {
-	background: url(https://exemplaryme.github.io/Whammyh.png);
-	height: 8px;
-	width: 92px;
-	display: block;
-	position: absolute;
-	top: 185px;
-	left: 78px;
-}
