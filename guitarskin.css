@@ -212,24 +212,4 @@
 	left: 58px;
 }
 
-/* The Whammy we'll set to R-Bumper */
-
-.custom .stick {
-	background: url(https://exemplaryme.github.io/Whammy.png);
-	height: 8px;
-	width: 92px;
-	display: block;
-	position: absolute;
-	top: 185px;
-	left: 78px;
-}
-
-.custom .stick.pressed {
-	background: url(https://exemplaryme.github.io/Whammyh.png);
-	height: 8px;
-	width: 92px;
-	display: block;
-	position: absolute;
-	top: 185px;
-	left: 78px;
-}
+/* No whammy yet */
