@@ -234,9 +234,9 @@
 
 /* 
 
-Note: I only have Wiitars so I have tweaked this to my use case it might apply to other guitars as well since this is mostly with the way guitar inputs are translated into XInput and how GPV takes that.
+Note: I only have Wiitars.
 
-Since Wiitars get tilt and whammy from Wiimote, and we only get full support for Wiimotes using WiiTar thing, Gamepadviewer DOES detect Whammy so moving the whammy up and down moves the right stick horizontal axis. When tilting we also have access to vertical axis. I don't know enough CSS or JS to do something fancy here with just Whammy.png stick mapping, so button map it is.
+Since Wiitars get tilt and whammy from Wiimote, and we only get full support for Wiimotes using WiitarThing, Gamepadviewer DOES detect Whammy so moving the whammy up and down moves the right stick horizontal axis. When tilting we also have access to vertical axis. I don't know enough CSS or JS to do something fancy here with just Whammy.png and stick mapping, so button map it is.
 
 Here is a screenwhat of my GPV mappings for this:
 https://imgur.com/ohwnjYf.png
@@ -244,11 +244,11 @@ https://imgur.com/ohwnjYf.png
 
 We set Fix Type Trigger 0 to 1, set lowest value as whammy's natural position. Click to set the value, bring the whammy down, and then let go. After 3 seconds GPV should set the value. Click to set the highest value and this time hold the whammy all the way down for three seconds.
 
-This makes sure that GPV knows what the whammy positions are so we can whammy effectively and not just whammy because the whammy itself is different.
+This makes sure that GPV knows what the whammy positions are so we can whammy effectively and not just whammy automatically simply because the whammy itself is different.
 
-Tilting is detected by GPV as RS Vertical, because of this our Whammy.png mapped to a right stick would fly about if we tilt but can be disabled. 
+Tilting is detected by GPV as RS Vertical, because of this our Whammy.png mapped to a right stick would fly about if we tilt, but can be disabled. 
 
-At this point we just re-map to show effectively with a button that we are whammying. Someone else can probably cook up a nice whammy efffect mapped to the stick if they are up for it, just remember to fix axis, etc.
+At this point we just re-map to show effectively with a button that we are whammying. Someone else can probably cook up a nice whammy efffect mapped to the stick if they are up for it, just remember to fix axis, etc. I don't know enough to make that happen right now.
 
 Here's my pre-generated URL with the mapping, just stick it in OBS.
 
