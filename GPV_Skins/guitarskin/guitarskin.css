@@ -234,13 +234,19 @@
 
 Instead we will map the Whammy and Whammyh to the right-bumper, and in GPV you can re-map the right-stick function and axis to the right-bumper.
 
-We also fix the axis of the right stick whammy by setting the natural position of the whammy as our lowest value, and actually whammying as our highest value.
+We also fix the axis of the right stick whammy by setting the natural position of the whammy as our lowest value, and actually whammying as our highest value. This will make sure the whammy position is reflected in GPV, whether shown or not. You can see this is working by looking at the Xbox controller and seeing the right stick in the correct positions.
 
 There are stick options in the generate URL window of GPV, this can also probably be messed around with to not need to remap to another button to get whammy visuals.
 
 The Remapping in GPV is as follow:
 
 https://imgur.com/ohwnjYf.png
+
+Here's my pre-generated URL with the mapping!
+
+https://gamepadviewer.com/?p=1&css=https%3A%2F%2Fexemplaryme.github.io%2FGPV_Skins%2Fguitarskin%2Fguitarskin.css&map=%7B%22mapping%22%3A%5B%7B%22targetType%22%3A%22buttons%22%2C%22target%22%3A%225%22%2C%22disabled%22%3Afalse%2C%22axesConfig%22%3A%7B%22type%22%3A%22trigger%22%2C%22lowValue%22%3A%22-0.7999542355537415%22%2C%22highValue%22%3A%221%22%7D%2C%22choiceOperand%22%3A%22-%22%2C%22choiceType%22%3A%22axes%22%2C%22choice%22%3A%222%22%7D%2C%7B%22targetType%22%3A%22axes%22%2C%22target%22%3A%222%22%2C%22disabled%22%3Atrue%7D%5D%7D
+
+This is specifically for my wiitar setup
 
 However you can change it to whatever you want if you decide to customize this skin or make it better!
 
