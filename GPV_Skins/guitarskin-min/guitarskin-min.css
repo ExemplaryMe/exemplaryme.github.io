@@ -1,6 +1,23 @@
 /*Begin Minimal GH Controller Styling*/
 
-.custom.controller {}
+.controller.custom {
+	/* Base background image of guitar 
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar.png);*/
+	height: 250px;
+	width: 741px;
+}
+
+.custom .disconnected {
+	/* Image for disconnected Guitar 
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar_Disconnected.png);*/
+	height: 250px;
+	width: 741px;
+}
+
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
 
 /* Fret Setup: Green - A, Red - B, Yellow - X, Blue - Y, Orange - L-Bumper */
 
