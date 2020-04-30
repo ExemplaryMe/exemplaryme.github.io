@@ -210,7 +210,9 @@
 	left: 58px;
 }
 
-/* Whammy Set Up - I am not sure how else everyone else is setup, I use a Wiitar and whammy will only work with WiitarThing so I am adding it in */
+/* Whammy Set Up - I am not sure how else everyone else is setup, I use a Wiitar and whammy will only work with WiitarThing so I am adding it in, if you have a whammy supported Guitar this should just work */
+
+/* This adds the Whammy to the overlay */
 
 .custom .stick{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammy.png);
@@ -218,18 +220,16 @@
 	position: absolute;
 	height: 8px;
 	width: 92px;
-	top: 180px;
-	left: 79px;
+	top: 181px;
+	left: 80px;
 }
 
-.custom .stick.pressed{
+.custom .stick.left, .custom.stick.right{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammyh.png);
 	display: block;
 	position: absolute;
 	height: 8px;
 	width: 92px;
-	top: 180px;
-	left: 79px;
-
-	
+	top: 181px;
+	left: 80px;
 }
