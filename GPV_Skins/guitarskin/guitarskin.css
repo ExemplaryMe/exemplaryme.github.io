@@ -212,6 +212,7 @@
 
 /* Whammy Set Up - I am not sure how else everyone else is setup, I use a Wiitar and whammy will only work with WiitarThing so I am adding it in, if you have a whammy supported Guitar this should just work */
 
+
 .custom .bumper.right{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammy.png);
 	display: block;
