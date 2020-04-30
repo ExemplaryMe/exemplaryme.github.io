@@ -6,8 +6,8 @@
 
 .controller.custom {
 	/* Base background image of guitar */
-	height: 250px;
-	width: 741px;
+	height: 100px;
+	width: 100px;
 }
 
 
@@ -25,8 +25,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 600px;
+    top: 41px;
+    left: 3px;
 }
 
 .custom .a.pressed{
@@ -36,8 +36,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 600px;
+    top: 41px;
+    left: 3px;
 }
 
 .custom .b{
@@ -47,8 +47,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 575px;
+    top: 41px;
+    left: 22px;
 }
 
 .custom .b.pressed{
@@ -58,8 +58,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 575px;
+    top: 41px;
+    left: 22px;
 }
 
 .custom .y{
@@ -69,8 +69,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 550px;
+    top: 41px;
+    left: 41px;
 }
 
 .custom .y.pressed{
@@ -80,8 +80,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 550px;
+    top: 41px;
+    left: 41px;
 }
 
 .custom .x{
@@ -91,8 +91,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 525px;
+    top: 41px;
+    left: 60px;
 }
 
 .custom .x.pressed{
@@ -102,8 +102,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 525px;
+    top: 41px;
+    left: 60px;
 }
 
 .custom .bumper.left {
@@ -113,8 +113,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 500px;
+    top: 41px;
+    left: 71px;
 }
 
 .custom .bumper.left.pressed {
@@ -124,8 +124,8 @@
     width: 18px;
     display: block;
     position: absolute;
-    top: 112px;
-    left: 500px;
+    top: 41px;
+    left: 71px;
 }
 
 /* Strum: Up / Down */
@@ -246,3 +246,9 @@
 	top: 183px;
 	left: 78px;
 }
+
+/* Pre-mapped gen URL
+
+https://gamepadviewer.com/?p=1&css=https%3A%2F%2Fexemplaryme.github.io%2FGPV_Skins%2Fguitarskin-min%2Fguitarskin-min.css&map=%7B%22mapping%22%3A%5B%7B%22targetType%22%3A%22buttons%22%2C%22target%22%3A%225%22%2C%22disabled%22%3Afalse%2C%22axesConfig%22%3A%7B%22type%22%3A%22trigger%22%2C%22lowValue%22%3A%22-0.7999542355537415%22%2C%22highValue%22%3A%221%22%7D%2C%22choiceOperand%22%3A%22-%22%2C%22choiceType%22%3A%22axes%22%2C%22choice%22%3A%222%22%7D%2C%7B%22targetType%22%3A%22axes%22%2C%22target%22%3A%222%22%2C%22disabled%22%3Atrue%7D%5D%7D
+
+*/
