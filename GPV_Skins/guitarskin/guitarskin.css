@@ -3,14 +3,14 @@
 
 .controller.custom {
 	/* Base background image of guitar */
-	background: url(https://exemplaryme.github.io/Guitar.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar.png);
 	height: 250px;
 	width: 741px;
 }
 
 .custom .disconnected {
 	/* Image for disconnected Guitar */
-	background: url(https://exemplaryme.github.io/Guitar_Disconnected.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar_Disconnected.png);
 	height: 250px;
 	width: 741px;
 }
@@ -22,7 +22,7 @@
 
 /* The Guitar has 5 Buttons A B X Y and L for the frets 1-5, Green, Red, Yelllow, Blue, Orange */
 .custom .a{
-    background: url(https://exemplaryme.github.io/Fret1.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret1.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -32,7 +32,7 @@
 }
 
 .custom .a.pressed{
-    background: url(https://exemplaryme.github.io/Fret1h.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret1h.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -42,7 +42,7 @@
 }
 
 .custom .b{
-    background: url(https://exemplaryme.github.io/Fret2.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret2.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -52,7 +52,7 @@
 }
 
 .custom .b.pressed{
-    background: url(https://exemplaryme.github.io/Fret2h.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret2h.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -62,7 +62,7 @@
 }
 
 .custom .x{
-    background: url(https://exemplaryme.github.io/Fret3.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret3.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -72,7 +72,7 @@
 }
 
 .custom .x.pressed{
-    background: url(https://exemplaryme.github.io/Fret3h.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret3h.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -82,7 +82,7 @@
 }
 
 .custom .y{
-    background: url(https://exemplaryme.github.io/Fret4.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret4.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -92,7 +92,7 @@
 }
 
 .custom .y.pressed{
-    background: url(https://exemplaryme.github.io/Fret4h.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret4h.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -103,7 +103,7 @@
 
 /* Orange Fret as Left Bumper */
 .custom .bumper.left.pressed{
-    background: url(https://exemplaryme.github.io/Fret5.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret5.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -113,7 +113,7 @@
 }
 
 .custom .bumper.left.pressed{
-    background: url(https://exemplaryme.github.io/Fret5h.png);
+    background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Fret5h.png);
     height: 27px;
     width: 18px;
     display: block;
@@ -125,7 +125,7 @@
 /* Strum Setup - the start is handled up by up and down */
 
 .custom .face.up {
-	background: url(https://exemplaryme.github.io/StrumUp.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/StrumUp.png);
 	height: 16px;
 	width:  65px;
 	display: block;
@@ -136,7 +136,7 @@
 }
 
 .custom .face.up.pressed {
-	background: url(https://exemplaryme.github.io/StrumUph.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/StrumUph.png);
 	height: 16px;
 	width:  65px;
 	display: block;
@@ -148,7 +148,7 @@
 
 
 .custom .face.down {
-	background: url(https://exemplaryme.github.io/StrumDown.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/StrumDown.png);
 	height: 16px;
 	width:  65px;
 	display: block;
@@ -159,7 +159,7 @@
 }
 
 .custom .face.down.pressed {
-	background: url(https://exemplaryme.github.io/StrumDownh.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/StrumDownh.png);
 	height: 16px;
 	width:  65px;
 	display: block;
@@ -173,7 +173,7 @@
 /* Start and Select Buttons */
 
 .custom .start {
-	background: url(https://exemplaryme.github.io/Start.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Start.png);
 	height: 23px;
 	width: 22px;
 	display: block;
@@ -183,7 +183,7 @@
 }
 
 .custom .start.pressed {
-	background: url(https://exemplaryme.github.io/Starth.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Starth.png);
 	height: 23px;
 	width: 22px;
 	display: block;
@@ -193,7 +193,7 @@
 }
 
 .custom .back {
-	background: url(https://exemplaryme.github.io/Select.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Select.png);
 	height: 20px;
 	width: 19px;
 	display: block;
@@ -203,7 +203,7 @@
 }
 
 .custom .back.pressed {
-	background: url(https://exemplaryme.github.io/Selecth.png);
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Selecth.png);
 	height: 20px;
 	width: 19px;
 	display: block;
