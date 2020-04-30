@@ -230,7 +230,7 @@
 .custom .bumper.right{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammy.png);
 	display: block;
-	position: fixed;
+	position: absolute;
 	height: 8px;
 	width: 92px;
 	top: 183px;
@@ -240,7 +240,7 @@
 .custom .bumper.right.pressed{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammyh.png);
 	display: block;
-	position: fixed;
+	position: absolute;
 	height: 8px;
 	width: 92px;
 	top: 183px;
