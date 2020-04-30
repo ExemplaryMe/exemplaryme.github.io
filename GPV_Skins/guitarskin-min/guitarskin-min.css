@@ -114,7 +114,7 @@
     display: block;
     position: absolute;
     top: 41px;
-    left: 71px;
+    left: 79px;
 }
 
 .custom .bumper.left.pressed {
@@ -125,7 +125,7 @@
     display: block;
     position: absolute;
     top: 41px;
-    left: 71px;
+    left: 79px;
 }
 
 /* Strum: Up / Down */
@@ -137,8 +137,8 @@
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 110px;
-    left: 140px;
+    top: 70px;
+    left: 23px;
 
 }
 
@@ -149,8 +149,8 @@
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 110px;
-    left: 140px;
+    top: 70px;
+    left: 23px;
 
 }
 
@@ -161,8 +161,8 @@
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 127px;
-    left: 140px;
+    top: 79px;
+    left: 23px;
 
 }
 
@@ -173,14 +173,15 @@
 	width:  65px;
 	display: block;
     position: absolute;
-    top: 127px;
-    left: 140px;
+    top: 79px;
+    left: 23px;
 
 }
 
 
-/* Start & Select(Back) Buttons */
 
+/* Start & Select(Back) Buttons */
+/*
 .custom .start {
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Start.png);
 	background-repeat: no-repeat;
@@ -202,6 +203,7 @@
 	top: 145px;
 	left: 34px;
 }
+*/
 
 .custom .back {
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Select.png);
@@ -210,8 +212,8 @@
 	width: 19px;
 	display: block;
 	position: absolute;
-	top: 131px;
-	left: 58px;
+	top: 70px;
+	left: 3px;
 }
 
 .custom .back.pressed {
@@ -221,8 +223,8 @@
 	width: 19px;
 	display: block;
 	position: absolute;
-	top: 131px;
-	left: 58px;
+	top: 70px;
+	left: 3px;
 }
 
 /* Whammy mapped to Right Bumper and Right Bumper Pressed to indicate perfect whammying! */
@@ -233,8 +235,8 @@
 	position: absolute;
 	height: 8px;
 	width: 92px;
-	top: 183px;
-	left: 78px;
+	top: 92px;
+	left: 6px;
 }
 
 .custom .bumper.right.pressed{
@@ -243,8 +245,8 @@
 	position: absolute;
 	height: 8px;
 	width: 92px;
-	top: 183px;
-	left: 78px;
+	top: 92px;
+	left: 6px;
 }
 
 /* Pre-mapped gen URL
