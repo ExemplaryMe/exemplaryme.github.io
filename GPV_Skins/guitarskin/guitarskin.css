@@ -210,7 +210,15 @@
 	left: 58px;
 }
 
-/* Whammy Set Up - I am not sure how else everyone else is setup, I use a Wiitar and whammy will only work with WiitarThing so I am adding it in, if you have a whammy supported Guitar this should just work */
+/* Whammy Setup - Since the axis position is hard coded in JavaScript we won't map the whammy image to the axis or else it moves and Clone Hero will keep the axis mapping because that's where we need it.
+
+Instead we will map the Whammy and Whammyh to the right-bumper, and in GPV you can re-map the right-stick function and axis to the right-bumper.
+
+We also fix the axis of the right stick whammy by setting the natural position of the whammy as our lowest value, and actually whammying as our highest value.
+
+There are stick options in the generate URL window of GPV, this can also probably be messed around with to not need to remap to another button to get whammy visuals.
+
+ */
 
 
 .custom .bumper.right{
