@@ -217,17 +217,17 @@
 .custom .stick{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammy.png);
 	display: block;
-	position: absolute;
+	position: fixed;
 	height: 8px;
 	width: 92px;
 	top: 181px;
 	left: 80px;
 }
 
-.custom .stick.left, .custom.stick.right{
+.custom .stick.left, .custom .stick.right{
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammyh.png);
 	display: block;
-	position: absolute;
+	position: fixed;
 	height: 8px;
 	width: 92px;
 	top: 181px;
