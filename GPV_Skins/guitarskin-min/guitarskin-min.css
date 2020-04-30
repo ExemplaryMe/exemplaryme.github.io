@@ -1,15 +1,15 @@
 /*Begin Minimal GH Controller Styling*/
 
 .controller.custom {
-	/* Base background image of guitar 
-	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar.png);*/
+	/* Base background image of guitar */
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar.png);
 	height: 250px;
 	width: 741px;
 }
 
 .custom .disconnected {
-	/* Image for disconnected Guitar 
-	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar_Disconnected.png);*/
+	/* Image for disconnected Guitar */
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar_Disconnected.png);
 	height: 250px;
 	width: 741px;
 }
