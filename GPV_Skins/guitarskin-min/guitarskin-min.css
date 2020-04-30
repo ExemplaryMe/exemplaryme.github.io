@@ -106,7 +106,7 @@
     left: 525px;
 }
 
-.custom .bumper.left.pressed {
+.custom .bumper.left {
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret5.png);
 	background-repeat: no-repeat;
     height: 27px;
