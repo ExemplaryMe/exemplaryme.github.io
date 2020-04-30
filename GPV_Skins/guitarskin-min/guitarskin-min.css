@@ -1,18 +1,15 @@
 /*Begin Minimal GH Controller Styling*/
 
+/* This is a minimal Guitar Hero overlay, getting rid of the guitar image and just showing our buttons.
+*/
+
+
 .controller.custom {
 	/* Base background image of guitar */
-	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar.png);
 	height: 250px;
 	width: 741px;
 }
 
-.custom .disconnected {
-	/* Image for disconnected Guitar */
-	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Guitar_Disconnected.png);
-	height: 250px;
-	width: 741px;
-}
 
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -228,4 +225,24 @@
 	left: 58px;
 }
 
-/* No whammy yet */
+/* Whammy mapped to Right Bumper and Right Bumper Pressed to indicate perfect whammying! */
+
+.custom .bumper.right{
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammy.png);
+	display: block;
+	position: fixed;
+	height: 8px;
+	width: 92px;
+	top: 183px;
+	left: 78px;
+}
+
+.custom .bumper.right.pressed{
+	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin/Whammyh.png);
+	display: block;
+	position: fixed;
+	height: 8px;
+	width: 92px;
+	top: 183px;
+	left: 78px;
+}
