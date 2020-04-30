@@ -1,7 +1,9 @@
-/*Begin Guitar Controller Styling*/
-/*This class defines the base attributes of the skin*/
+/*Begin Minimal GH Controller Styling*/
 
-/* The Guitar has 5 Buttons A B X Y and L for the frets 1-5, Green, Red, Yelllow, Blue, Orange */
+.custom.controller {}
+
+/* Fret Setup: Green - A, Red - B, Yellow - X, Blue - Y, Orange - L-Bumper */
+
 .custom .a{
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret1.png);
 	background-repeat: no-repeat;
@@ -90,8 +92,7 @@
     left: 525px;
 }
 
-/* Orange Fret as Left Bumper */
-.custom .bumper.left.pressed{
+.custom .bumper.left.pressed {
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret5.png);
 	background-repeat: no-repeat;
     height: 27px;
@@ -102,7 +103,7 @@
     left: 500px;
 }
 
-.custom .bumper.left.pressed{
+.custom .bumper.left.pressed {
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret5h.png);
 	background-repeat: no-repeat;
     height: 27px;
@@ -113,7 +114,7 @@
     left: 500px;
 }
 
-/* Strum Setup - the start is handled up by up and down */
+/* Strum: Up / Down */
 
 .custom .face.up {
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/StrumUp.png);
@@ -138,7 +139,6 @@
     left: 140px;
 
 }
-
 
 .custom .face.down {
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/StrumDown.png);
@@ -165,7 +165,7 @@
 }
 
 
-/* Start and Select Buttons */
+/* Start & Select(Back) Buttons */
 
 .custom .start {
 	background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Start.png);
