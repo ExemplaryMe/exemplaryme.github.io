@@ -62,7 +62,7 @@
     left: 575px;
 }
 
-.custom .x{
+.custom .y{
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret3.png);
 	background-repeat: no-repeat;
     height: 27px;
@@ -73,7 +73,7 @@
     left: 550px;
 }
 
-.custom .x.pressed{
+.custom .y.pressed{
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret3h.png);
 	background-repeat: no-repeat;
     height: 27px;
@@ -84,7 +84,7 @@
     left: 550px;
 }
 
-.custom .y{
+.custom .x{
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret4.png);
 	background-repeat: no-repeat;
     height: 27px;
@@ -95,7 +95,7 @@
     left: 525px;
 }
 
-.custom .y.pressed{
+.custom .x.pressed{
     background: url(https://exemplaryme.github.io/GPV_Skins/guitarskin-min/Fret4h.png);
 	background-repeat: no-repeat;
     height: 27px;
